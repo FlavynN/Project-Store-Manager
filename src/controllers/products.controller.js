@@ -11,11 +11,11 @@ const getAllProducts = async (_req, res) => {
 
 const getProduct = async (req, res) => {
   const { id } = req.params;
-  const { type, message } = await productsService.getById(id);
+  const product = await productsService.getById(id);
 
-  if (type) return res.status(errorMap.mapError(type)).json(message);
+  if (product.message) return res.status(404).json(product);
 
-  return res.status(200).json(message);
+  return res.status(200).json(product);
 };
 
 module.exports = {
