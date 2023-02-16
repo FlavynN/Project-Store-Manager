@@ -17,8 +17,6 @@ const getById = async (productId) => {
 };
 
 const insertProduto = async (name) => {
-  const error = await schema.validateName(name);
-  if (error.type === null) return { type: error };
   const newProductId = await productModel.insertProduct(name);
   const newProduct = await productModel.getById(newProductId);
 
