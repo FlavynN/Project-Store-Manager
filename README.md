@@ -1,10 +1,38 @@
-# :construction: README em construção ! :construction:
-<!-- Olá, Tryber!
-Esse é apenas um arquivo inicial para o README do seu projeto.
-É essencial que você preencha esse documento por conta própria, ok?
-Não deixe de usar nossas dicas de escrita de README de projetos, e deixe sua criatividade brilhar!
-:warning: IMPORTANTE: você precisa deixar nítido:
-- quais arquivos/pastas foram desenvolvidos por você; 
-- quais arquivos/pastas foram desenvolvidos por outra pessoa estudante;
-- quais arquivos/pastas foram desenvolvidos pela Trybe.
--->
+# Project Store Manager
+
+The Store Manager is a demonstration of a store's database, where you can add, remove, and edit products. Additionally, you can create new orders, all through verification. The objective of the project is to create a CRUD system that performs all these functionalities: create, edit, and remove products, as well as enable order creation.
+
+## Technologies Used
+
+* MySQL
+* JavaScript
+* Chai / Sinon
+
+## What was built?
+
+* Sql database
+* CRUD for products and sales
+* Validations
+* Unit Tests
+
+
+## How to run the project?
+
+* Its necessary to clone the project using Git clone.
+
+* After clone the project, you can start it with the following command:
+```
+npm install
+```
+* to run the docker:
+ ```
+ docker-compose up -d
+ ```
+ * to access docker bash:
+ ```
+ docker exec -it store_manager bash
+ npm install
+ ```
+ 
+ ## More Info
+ This project is based by [Trybe](https://www.betrybe.com/) and contains Copyright.
