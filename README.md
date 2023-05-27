@@ -7,6 +7,7 @@ The Store Manager is a demonstration of a store's database, where you can add, r
 * MySQL
 * JavaScript
 * Chai / Sinon
+* NodeJS
 
 ## What was built?
 
